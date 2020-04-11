@@ -3,25 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chapter 7</title>
-
+    <title>Assignment 4 | Jillian Buttecali </title>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/chapter07-project03.css" />
+    <link rel="stylesheet" title="assignment-styles" href="./css/chapter07-project03.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/chapter07-project03.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
 
 </head>
 
 <body>
     <header>
+        <!-- start topHeaderRow -->
         <div class="topHeaderRow">
             <div >
-                <div >
-                    <ul >
-                        <li><a href="#"> Logout</a></li>
-                        <li><a href="#"> Profile</a></li>
-                        <li><a href="#"> Favorites</a></li>
+                <div class="navbar navbar-fixed-top">
+                    <ul class="branded">
+                        <li><a href="#">Logout</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Favorites</a></li>
                     </ul>
                 </div>
             </div>
@@ -67,9 +68,11 @@
 
 
     <!-- Page Content -->
-    <main >
-
-            <aside>
+    <main class="container">
+      <!-- start of main row -->
+      <div class="row"> 
+            <!-- start right sidebar -->
+            <aside class="col-md-2">
                 <div >
                     <div >Continents</div>
                     <ul >
@@ -98,7 +101,11 @@
                 </div>
   
             </aside>
-            <div >
+            <!-- end right sidebar -->
+        <!-- start first nested row -->
+        <div class="row">
+            <!-- start main image -->
+            <div class="col-md-10">
                     <div >
                         <img  src="images/8711645510.jpg" alt="Temple of Hephaistos">
                         <p >Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the best preserved temple of antiquity. </p>
@@ -211,10 +218,11 @@
                 </div>
                                
             </div>
-
+        </div> <!-- end of first nested row -->
+      </div> <!-- end of main row -->
     </main>
     
-    <footer>
+    <footer class="navbar navbar-fixed-bottom">
        <div >
 
                 <div >

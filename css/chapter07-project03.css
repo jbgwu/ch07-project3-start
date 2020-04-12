@@ -1,1 +1,38 @@
 /*! custom styling for assignment 4 */
+h1, h2, h3, h4, h5, p, a, ul, li {
+}
+.topHeaderRow ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkblue;
+  color: white;
+}
+.topHeaderRow li {
+  display: inline;
+}
+.topHeaderRow li a {
+  float: right;
+  text-decoration: none;
+  padding: 0px;
+  margin: 5px 15px 5px 0px;
+  font-size: .75em;
+  color: white;
+}
+.topHeaderRow img {
+  max-width: 10px;
+}
+.navbar, .nav-link {
+  background-color: skyblue;
+  color: white;
+}
+.navbar-brand {
+  color: white;
+  font-family: cursive, serif;
+}
+.search-bar button {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}

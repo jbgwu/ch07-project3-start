@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title>Assignment 4 | Jillian Buttecali </title>
+    <title>Assignment 4 | Jillian Buttecali</title>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" title="assignment-styles" href="./css/chapter07-project03.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/chapter07-project03.css" />
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-
+    <link href="./css/chapter07-project03.css" rel="stylesheet" title="assignment-styles" />
+    <!-- Bootstrap styles, including the most recent distro for Bootsrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <!-- start topHeaderRow -->
-        <div class="topHeaderRow">
-            <div >
-                <div class="navbar navbar-fixed-top">
-                    <ul class="branded">
+        <!-- start utility nav -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="navbar">
+                <div class="nav">
+                    <ul class="">
                         <li><a href="#">Logout</a></li>
                         <li><a href="#">Profile</a></li>
                         <li><a href="#">Favorites</a></li>
                     </ul>
                 </div>
             </div>
+          </div>
         </div>
-        <!-- end topHeaderRow -->
-
-
-        <nav >
-            <div >
+        <!-- end utility nav -->
+        <!-- start main nav -->
+        <nav class="navbar">
+            <div class="">
 
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -64,11 +63,37 @@
             </div>
 
         </nav>
+        <!-- end main nav-->
     </header>
 
 
-    <!-- Page Content -->
+
+
+
+
+
+
+
+    
+    <!-- start page content -->
     <main class="container">
+        <div class="row">
+          <div class="col-md-2">
+              continents and popular
+          </div>
+          <div class="row">
+            <div class="col-md-8">big picture of temple</div>
+            <div class="col-md-4">right hand side bar</div>
+          </div>
+          <div class="col-lg-10">related photos</div>
+        </div>
+
+
+
+
+
+
+
       <!-- start of main row -->
       <div class="row"> 
             <!-- start right sidebar -->
@@ -221,7 +246,9 @@
         </div> <!-- end of first nested row -->
       </div> <!-- end of main row -->
     </main>
+    <!-- end page content -->
     
+    <!-- start footer -->
     <footer class="navbar navbar-fixed-bottom">
        <div >
 
@@ -320,10 +347,20 @@
         
 
     </footer>
+    <!-- end footer -->
 
-
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- JS files for bootstrap 
+      -- I updated the links to the most recent version of
+      -- Boostrap 4. 
+    -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
 </body>
-
 </html>
